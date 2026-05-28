@@ -1,0 +1,15 @@
+2024-01-15 08:23:11 FAILED_LOGIN user=admin src_ip=192.168.1.105 attempts=3
+2024-01-15 08:23:45 FAILED_LOGIN user=admin src_ip=192.168.1.105 attempts=4
+2024-01-15 08:24:01 FAILED_LOGIN user=admin src_ip=192.168.1.105 attempts=5
+2024-01-15 08:24:15 SUCCESS_LOGIN user=admin src_ip=192.168.1.105
+2024-01-15 09:15:22 FAILED_LOGIN user=root src_ip=10.0.0.55 attempts=1
+2024-01-15 09:16:33 FAILED_LOGIN user=root src_ip=10.0.0.55 attempts=2
+2024-01-15 09:17:44 FAILED_LOGIN user=root src_ip=10.0.0.55 attempts=3
+2024-01-15 10:05:11 SUCCESS_LOGIN user=john src_ip=192.168.1.200
+2024-01-15 10:45:33 FILE_ACCESS user=john file=/etc/passwd src_ip=192.168.1.200
+2024-01-15 11:22:44 MALWARE_DETECTED file=trojan.exe src_ip=172.16.0.88
+2024-01-15 11:23:01 MALWARE_DETECTED file=keylogger.dll src_ip=172.16.0.88
+2024-01-15 12:10:55 PORT_SCAN src_ip=203.0.113.42 ports_scanned=1000
+2024-01-15 13:45:22 SUCCESS_LOGIN user=mary src_ip=192.168.1.150
+2024-01-15 14:30:11 FAILED_LOGIN user=mary src_ip=45.33.32.156 attempts=1
+2024-01-15 15:20:33 DATA_EXFIL user=john bytes_transferred=500000 dst_ip=185.220.101.45
